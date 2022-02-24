@@ -5,3 +5,33 @@ __pycache__
 coverage.xml
 node_modules/
 coverage/
+
+# Backups
+*~
+*.DS_Store
+*.out
+*.so
+*.swp
+
+# Logs
+logs
+*.log
+
+# Composer
+composer.lock
+vendor
+
+# Node
+.npm
+node_modules
+npm-debug.log*
+
+# PhpStorm
+.idea
+
+# PHPUnit
+phpunit.xml
+
+
+# Git
+!.gitkeep

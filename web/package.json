@@ -6,6 +6,9 @@
     "test": "jest --collectCoverage",
     "build": "babel --plugins @babel/plugin-transform-modules-commonjs script.js"
   },
+  "coverageReporters": [
+    "lcov"
+  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
